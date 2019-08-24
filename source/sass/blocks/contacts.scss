@@ -91,7 +91,6 @@
 
 @media (min-width: $tablet) {
   .contacts__list {
-
     &::after {
       content: "";
       position: absolute;
@@ -267,7 +266,6 @@
 
 @media (min-width: $desktop) {
   .contacts__list {
-
     &::after {
       content: "";
       position: absolute;

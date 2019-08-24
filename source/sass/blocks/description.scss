@@ -160,7 +160,6 @@
   .description {
     height: 491px;
     position: relative;
-    margin-bottom: 0;
     margin-bottom: 98px;
   }
 }
@@ -232,7 +231,6 @@
   .description__list {
     display: flex;
     flex-direction: row;
-    margin-left: 0;
     margin-right: 0;
     justify-content: space-between;
     width: 879px;
@@ -291,7 +289,6 @@
 
 @media (min-width: $desktop) {
   .description__item:first-child {
-
     &::before {
       content: "";
       position: absolute;
@@ -308,7 +305,6 @@
 
 @media (min-width: $desktop) {
   .description__item:first-child {
-
     &::after {
       content: "";
       position: absolute;
@@ -324,7 +320,6 @@
 
 @media (min-width: $desktop) {
   .description__item:nth-child(2) {
-
     &::after {
       content: "";
       position: absolute;
@@ -340,7 +335,6 @@
 
 @media (min-width: $desktop) {
   .description__item:last-child {
-
     &::after {
       content: "";
       position: absolute;
@@ -356,7 +350,6 @@
 
 @media (min-width: $desktop) {
   .description__item:nth-child(2) {
-
     &::before {
       content: "";
       position: absolute;
@@ -373,7 +366,6 @@
 
 @media (min-width: $desktop) {
   .description__item:last-child {
-
     &::before {
       content: "";
       position: absolute;

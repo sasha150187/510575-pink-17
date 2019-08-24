@@ -8,6 +8,16 @@
   margin-left: -42px;
   display: block;
   margin-top: 8px;
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../img/");
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 34px;
+    top: -5px;
+    right: -41px;
+  }
 }
 
 .socials__item {
@@ -21,10 +31,6 @@
 
 .footer-social {
   display: none;
-}
-
-.socials__list {
-  display: flex;
 }
 
 .social__link--pl {
@@ -55,20 +61,6 @@
   height: 24px;
   top: 16px;
   left: 15px;
-}
-
-.socials__developer {
-
-  &::after {
-    content: "";
-    position: absolute;
-    background-image: url("../../img/");
-    background-repeat: no-repeat;
-    width: 27px;
-    height: 34px;
-    top: -5px;
-    right: -41px;
-  }
 }
 
 .social {
@@ -127,7 +119,6 @@
 
 @media (min-width: $tablet) {
   .socials__developer {
-
     &::after {
       content: "";
       position: absolute;
@@ -227,7 +218,6 @@
 
 @media (min-width: $desktop) {
   .socials__developer {
-
     &::after {
       content: "";
       position: absolute;
